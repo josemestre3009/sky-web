@@ -152,7 +152,7 @@ include "config.php";
             <ul class="plan-lista">
               <li><i class="bi bi-check-circle-fill"></i> Navegación ilimitada</li>
               <li><i class="bi bi-check-circle-fill"></i> Sin límite de descargas ni consumo</li>
-              <li><i class="bi bi-arrow-up-right-circle"></i> Fibra óptica velocidad simétrica de <b><?php echo htmlspecialchars($plan['MEGAS'], ENT_QUOTES, 'UTF-8'); ?> Mbps</b></li>
+              <li><i class="bi bi-arrow-up-right-circle"></i> Fibra óptica o Radio Enlace velocidad simétrica de <b><?php echo htmlspecialchars($plan['MEGAS'], ENT_QUOTES, 'UTF-8'); ?> Mbps</b></li>
             </ul>
             <div class="mt-auto pt-3 d-flex justify-content-center align-items-end">
               <a href="https://wa.me/<?php echo htmlspecialchars($Whatsapp, ENT_QUOTES, 'UTF-8'); ?>?text=Hola,%20vengo%20de%20la%20PaginaWeb%20y%20me%20interesa%20adquirir%20el%20plan%20<?php echo urlencode($plan['NOMBRE']); ?>" class="btn btn-plan">¡Adquirir Este Plan!</a>
