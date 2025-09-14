@@ -19,7 +19,7 @@ image.png<!-- ======= Header ======= -->
         <li class="dropdown"><a href="#">Información</a>
           <ul>
             <li><a href="internet_sano.php">Internet Sano</a></li>
-            <li><a href="LEY_1339_DE 2009.php"> LEY 1339 DE 2009</a></li>
+            <li><a href="LEY_1339_DE 2009.php"> LEY 1336 DE 2009</a></li>
             <li><a href="seguridad_en_la_red.php">Seguridad en la Red</a></li>
             <li><a href="tratamiento.php">Política De Tratamiento De Datos</a></li>
             <li><a href="Como_llegamos_a_tu_hogar.php">Como Llegamos a tu Hogar</a></li>
