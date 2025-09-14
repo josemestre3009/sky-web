@@ -1,0 +1,389 @@
+/* Colores personalizados para Sky Soluciones Tecnológicas */
+
+:root {
+  /* Colores principales de la empresa */
+  --color-principal: #1db647;      /* Verde principal */
+  --color-secundario: #2ecc71;     /* Verde claro */
+  --color-terceario: #27ae60;      /* Verde oscuro para acentos */
+  
+  /* Colores adicionales */
+  --color-verde-claro: #58d68d;    /* Verde muy claro */
+  --color-verde-oscuro: #1e8449;   /* Verde muy oscuro */
+  --color-blanco: #ffffff;         /* Blanco */
+  --color-gris: #7f8c8d;           /* Gris para texto secundario */
+}
+
+/* Aplicar colores a elementos específicos */
+.btn-get-started {
+  background: var(--color-principal);
+  border-color: var(--color-principal);
+  color: white;
+}
+
+.btn-get-started:hover {
+  background: var(--color-verde-oscuro);
+  border-color: var(--color-verde-oscuro);
+  color: white;
+}
+
+.navbar .nav-link:hover {
+  color: var(--color-principal) !important;
+}
+
+.navbar .nav-link.active {
+  color: var(--color-principal) !important;
+}
+
+/* Colores para los planes */
+.plan-card {
+  border: 2px solid var(--color-principal);
+  border-radius: 25px;
+  padding: 30px 20px;
+  margin: 20px 10px;
+  transition: all 0.3s ease;
+  background: white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  min-height: 500px;
+}
+
+.plan-card:hover {
+  border-color: var(--color-verde-oscuro);
+  box-shadow: 0 10px 30px rgba(29, 182, 71, 0.3);
+  transform: translateY(-5px);
+}
+
+/* Tarjeta recomendada (centro) más redonda */
+.plan-recommended {
+  border-radius: 30px !important;
+  border: 3px solid var(--color-principal) !important;
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(29, 182, 71, 0.4) !important;
+}
+
+.plan-recommended:hover {
+  transform: scale(1.08) translateY(-5px) !important;
+}
+
+.plan-badge {
+  display: none;
+}
+
+.plan-icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan-icon i {
+  color: var(--color-principal);
+  font-size: 3rem;
+}
+
+.plan-nombre {
+  text-align: center;
+  color: var(--color-principal);
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Estilos para precios */
+.plan-precio {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.precio-simbolo {
+  font-size: 1.5rem;
+  color: var(--color-principal);
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.precio-numero {
+  font-size: 3rem;
+  color: var(--color-principal);
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.precio-periodo {
+  font-size: 0.9rem;
+  color: #666;
+  vertical-align: bottom;
+}
+
+.plan-lista {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.plan-lista li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.plan-lista li i {
+  color: var(--color-principal);
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Colores para el header */
+.header {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 2px solid var(--color-principal);
+  padding: 10px 0;
+}
+
+.logo-link {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.logo-link img {
+  transition: all 0.3s ease;
+}
+
+.logo-link:hover img {
+  transform: scale(1.05);
+}
+
+.empresa-nombre {
+  color: var(--color-principal) !important;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+/* Ajustar el contenedor del header */
+.header .container-fluid {
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
+.logo-link {
+  margin-left: -15px;
+  padding-left: 0;
+}
+
+/* Centrar mejor el contenido del header */
+.header .navbar {
+  margin-right: -10px;
+}
+
+/* Ajustar el espaciado del menú */
+.header .navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navegación activa mejorada */
+.navbar .nav-link.active {
+  color: var(--color-principal) !important;
+  font-weight: bold;
+  position: relative;
+}
+
+.navbar .nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 2px;
+  background: var(--color-principal);
+  border-radius: 1px;
+}
+
+/* Mejorar la detección de scroll */
+.navbar .nav-link {
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navbar .nav-link:hover {
+  color: var(--color-principal) !important;
+}
+
+/* Botones de planes */
+.btn-plan {
+  background: var(--color-principal);
+  border-color: var(--color-principal);
+  color: white;
+}
+
+.btn-plan:hover {
+  background: var(--color-verde-oscuro);
+  border-color: var(--color-verde-oscuro);
+  color: white;
+}
+
+/* Enlaces y elementos interactivos */
+a {
+  color: var(--color-principal);
+}
+
+a:hover {
+  color: var(--color-verde-oscuro);
+}
+
+/* Botón de consultar saldo */
+.btn-saldo {
+  background: var(--color-principal);
+  color: white;
+}
+
+.btn-saldo:hover {
+  background: var(--color-verde-oscuro);
+  color: white;
+}
+
+/* Iconos de contacto */
+.info-box i {
+  color: var(--color-principal);
+}
+
+/* Sección de clientes/instituciones */
+.clients-slider .swiper-slide img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.clients-slider .swiper-slide:hover img {
+  filter: grayscale(0%);
+}
+
+/* Botón de volver arriba */
+.back-to-top {
+  background: var(--color-principal);
+  color: white;
+}
+
+.back-to-top:hover {
+  background: var(--color-verde-oscuro);
+  color: white;
+}
+
+/* Estilos adicionales para la sección de precios */
+.pricing {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.section-header {
+  margin-bottom: 60px;
+}
+
+.section-header p {
+  font-size: 1.5rem;
+  color: var(--color-principal);
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* Mejorar el espaciado de las filas */
+.pricing .row {
+  margin: 0 -15px;
+}
+
+.pricing .col-lg-4 {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .plan-card {
+    margin: 5px 0;
+    min-height: 250px;
+    max-width: 100%;
+  }
+  
+  .plan-recommended {
+    transform: none !important;
+    max-width: 100%;
+  }
+  
+  .plan-recommended:hover {
+    transform: translateY(-3px) !important;
+  }
+  
+  .precio-numero {
+    font-size: 1.2rem;
+  }
+  
+  .plan-icon i {
+    font-size: 1.3rem;
+  }
+}
+
+/* Estilos para la fecha y hora */
+.fecha-hora-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.fecha-hora-titulo {
+  color: var(--color-principal);
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.fecha-hora-container {
+  background: linear-gradient(135deg, var(--color-principal) 0%, var(--color-verde-oscuro) 100%);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 30px;
+  text-align: center;
+  border: none;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(29, 182, 71, 0.3);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.fecha-hora-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+
+.fecha-hora-container:hover::before {
+  left: 100%;
+}
+
+.fecha-hora-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(29, 182, 71, 0.4);
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .fecha-hora-titulo {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .fecha-hora-container {
+    font-size: 16px;
+    padding: 15px 20px;
+    margin: 0 auto 20px auto;
+    border-radius: 20px;
+  }
+}
