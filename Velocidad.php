@@ -8,7 +8,7 @@ include 'config.php';
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<title>Politica de Tratamiendo de la Informacion</title>
+<title>Test de Velocidad</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
@@ -43,7 +43,7 @@ include 'config.php';
    <!-- ======= Hero Section ======= -->
 <section class="entry-content">
     <div class="container" data-aos="fade-up">
-    <br><br><br><br><br><br><br><br><br>
+    
 
     <!-- Cuadro de Fecha y Hora -->
     <div class="fecha-hora-section">
