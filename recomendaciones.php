@@ -1,6 +1,3 @@
-<?php
-include 'config.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,12 +5,12 @@ include 'config.php';
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<title>Test de Velocidad</title>
+    <title>Recomendaciones de Seguridad</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
 <!-- Favicons -->
-<link href="assets/img/logo1.png" rel="icon">
+  <link href="assets/img/logo1.png" rel="icon">
 <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
 <!-- Google Fonts -->
@@ -29,40 +26,49 @@ include 'config.php';
 
 <!-- Template Main CSS File -->
 <link href="assets/css/style.css" rel="stylesheet">
-<!-- Custom Colors CSS -->
-<link href="assets/css/custom-colors.css" rel="stylesheet">
 
+<!-- =======================================================
+* Template Name: FlexStart
+* Updated: Sep 18 2023 with Bootstrap v5.3.2
+* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+======================================================== -->
 </head>
 
 <body>
+
 <!-- ======= Header ======= -->
 <?php include_once ('header.php'); ?>
 <!-- End Header -->
 
+
+
+  
+
 <main id="main">
-   <!-- ======= Hero Section ======= -->
-<section class="entry-content">
-    <div class="container" data-aos="fade-up">
-    
+    <!-- ======= Recent Blog Posts Section ======= -->
+  <section id="recent-blog-posts" class="recent-blog-posts">
 
-    <!-- Cuadro de Fecha y Hora -->
-    <div class="fecha-hora-section">
-        <h3 class="fecha-hora-titulo">Fecha y Hora Actual de Colombia</h3>
-        <div id="fecha-hora" class="fecha-hora-container">
-            Cargando fecha y hora...
-        </div>
-    </div>
+<div class="container" data-aos="fade-up">
 
-	<iframe 
-    style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;min-height:360px;overflow:hidden !important;" 
-    src="https://openspeedtest.com/speedtest">
-</iframe>
+  <header class="section-header">
+    <h2></h2>
+    <br><br>
+    <p>Conozca las Recomendaciones de Seguridad.</p>
+  </header>
 
+  <div class="row">
 
+        <iframe src='recomendaciones-de-seguridad-sky.pdf' width='80%' height='440px' frameborder='0'></iframe>
+  </div>
 
-    </div>
-</section><!-- End Hero -->
+</div>
+
+</section><!-- End Recent Blog Posts Section -->     
+
 </main><!-- End #main -->
+
 
 <!-- ======= Footer ======= -->
   <?php include_once ('footer.php'); ?>
@@ -80,22 +86,7 @@ include 'config.php';
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
-<script src="assets/js/navigation-fix.js"></script>
-
-<!-- Script Fecha y Hora -->
-<script>
-function actualizarFechaHora() {
-    let ahora = new Date();
-    let opciones = { 
-        weekday: 'long', year: 'numeric', month: 'long', 
-        day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' 
-    };
-    let fechaHora = ahora.toLocaleDateString('es-CO', opciones);
-    document.getElementById("fecha-hora").innerHTML = fechaHora;
-}
-setInterval(actualizarFechaHora, 1000);
-actualizarFechaHora();
-</script>
 
 </body>
+
 </html>

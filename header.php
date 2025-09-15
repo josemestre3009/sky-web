@@ -26,6 +26,7 @@ image.png<!-- ======= Header ======= -->
             <li><a href="FormatoContrato.pdf">Modelo de Contrato</a></li>
             <li><a href="proteccion.php">Regimen de Proteccion del Usuario</a></li>
             <li><a href="Politica-de-gestion-de-trafico.php">Politica de Gestion de Tráfico</a></li>
+            <li><a href="recomendaciones.php">Recomendaciones de Seguridad</a></li>
           </ul>
         </li>
         <li><a class="nav-link scrollto " href="Velocidad.php">Test de Velocidad</a></li>
